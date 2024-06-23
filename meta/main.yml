@@ -1,24 +1,23 @@
 galaxy_info:
-    author: SammaniGayathri
-    description: Example Ansible role for demonstration
-    company: YourCompan
-    license: MIT
-    min_ansible_version: "2.9"
-    platforms:
-      - name: EL
-        versions:
-          - 7
-          - 8
-          - name: Fedora
-            versions:
-              - 30
-              - 31
-              - name: Ubuntu
-                versions:
-                  - bionic
-                  - focal
-                categories:
-                  - system
-                  - network
-                dependencies: []
-
+  author: SammaniGayathri
+  description: Example Ansible role for demonstration
+  company: YourCompany  # Fixed typo in "YourCompan"
+  license: MIT
+  min_ansible_version: "2.9"
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Fedora
+      versions:
+        - 30
+        - 31
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+  categories:
+    - system
+    - network
+  dependencies: []
